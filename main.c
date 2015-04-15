@@ -20,7 +20,6 @@ int main(int argc, char** argv) {
     // Dichiara le variabili locali
     int i;
     studente elenco[N];
-    char temp[MAX_STRLEN];
     // Codice per l'inserimento, da parte dell'utente, dei dati
     for(i=0;i<N;i++){
         printf("Inserisci il nome della %d persona: ",i+1);
